@@ -1,0 +1,953 @@
+.cct h1,.cct button{
+    display: flex;
+    position: absolute;
+}
+.cct button{
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+    display: none;
+}
+.container .active .cct:nth-child(1) button{
+    height: 35px;
+    width: 82%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    backdrop-filter: blur(15px);
+    box-shadow: inset 0 0 5px #000,0 0 10px #fff;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0 0 10px #000;
+    display: block;
+    cursor: pointer;
+}
+.container .active .cct h2{
+    font-size: 0px;
+}
+.container .active .cct:nth-child(14) button{
+    height: 35px;
+    width: 82%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    background: none;
+    backdrop-filter: blur(15px);
+    box-shadow: inset 0 0 5px #000,0 0 10px #fff;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0 0 10px #000;
+    display: block;
+    cursor: pointer;
+}
+.container .active .cct:nth-child(n+2):nth-child(-n+13) button{
+    height: 35px;
+    width: 82%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    backdrop-filter: blur(15px);
+    box-shadow: inset 0 0 5px #000,0 0 10px #fff;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0 0 10px #000;
+    display: block;
+    cursor: pointer;
+}
+.sisi h2{
+    position: absolute;
+}
+#myForm .active .sisi h2:nth-child(1){
+    font-size: 0px;
+}
+.sisi h2:nth-child(2){
+    font-size: 0px;
+}
+#myForm .active h2:nth-child(2){
+    font-size: 20px;
+}
+.buttons .active{
+    background: #4dc814;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+.donee h3{
+    font-size: 21px;
+}
+.buttons .donee h3{
+    position: absolute;
+    margin-left: 35px;
+    margin-top: -11px;
+    font-size: 21px;
+}
+.buttons .active h3{
+    font-size: 0px;
+}
+.donee h2{
+    font-size: 0px;
+}
+.buttons .active h2{
+    font-size: 21px;
+}
+.buttons .donee:hover h3{
+    margin-left: 33px;
+    transition: 0.1s;
+}
+.ffirst h2{
+    position: absolute;
+}
+.ccontainer .active h2:nth-child(1){
+    display: none;
+}
+.ccontainer .active h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .active h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .active h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.ffirst h2:nth-child(2) input,.ffirst h2:nth-child(2) button{
+    display: none;
+}
+.ffirst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+.ssirst h2{
+    position: absolute;
+}
+.ccontainer .activess h2:nth-child(1){
+    display: none;
+}
+.ccontainer .activess h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .activess h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .activess h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.ssirst h2:nth-child(2) input,h2:nth-child(2) button{
+    display: none;
+}
+.ssirst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+.ttirst h2{
+    position: absolute;
+}
+.ccontainer .activett h2:nth-child(1){
+    display: none;
+}
+.ccontainer .activett h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .activett h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .activett h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.ttirst h2:nth-child(2) input{
+    display: none;
+}
+.ttirst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+.aairst h2{
+    position: absolute;
+}
+.ccontainer .activeaa h2:nth-child(1){
+    display: none;
+}
+.ccontainer .activeaa h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .activeaa h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .activeaa h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.aairst h2:nth-child(2) input{
+    display: none;
+}
+.aairst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+.bbirst h2{
+    position: absolute;
+}
+.ccontainer .activebb h2:nth-child(1){
+    display: none;
+}
+.ccontainer .activebb h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .activebb h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .activebb h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.bbirst h2:nth-child(2) input{
+    display: none;
+}
+.bbirst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+.ccirst h2{
+    position: absolute;
+}
+.ccontainer .activecc h2:nth-child(1){
+    display: none;
+}
+.ccontainer .activecc h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .activecc h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .activecc h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.ccirst h2:nth-child(2) input{
+    display: none;
+}
+.ccirst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+.yyirst h2{
+    position: absolute;
+}
+.ccontainer .activeyy h2:nth-child(1){
+    display: none;
+}
+.ccontainer .activeyy h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .activeyy h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .activeyy h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.yyirst h2:nth-child(2) input{
+    display: none;
+}
+.yyirst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+.eeirst h2{
+    position: absolute;
+}
+.ccontainer .activeee h2:nth-child(1){
+    display: none;
+}
+.ccontainer .activeee h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .activeee h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .activeee h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.eeirst h2:nth-child(2) input{
+    display: none;
+}
+.eeirst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+.zzirst h2{
+    position: absolute;
+}
+.ccontainer .activezz h2:nth-child(1){
+    display: none;
+}
+.ccontainer .activezz h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .activezz h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .activezz h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.zzirst h2:nth-child(2) input{
+    display: none;
+}
+.zzirst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+.ggirst h2{
+    position: absolute;
+}
+.ccontainer .activegg h2:nth-child(1){
+    display: none;
+}
+.ccontainer .activegg h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .activegg h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .activegg h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.ggirst h2:nth-child(2) input{
+    display: none;
+}
+.ggirst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+.hhirst h2{
+    position: absolute;
+}
+.ccontainer .activehh h2:nth-child(1){
+    display: none;
+}
+.ccontainer .activehh h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .activehh h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .activehh h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.hhirst h2:nth-child(2) input{
+    display: none;
+}
+.hhirst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+.iiirst h2{
+    position: absolute;
+}
+.ccontainer .activeii h2:nth-child(1){
+    display: none;
+}
+.ccontainer .activeii h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .activeii h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .activeii h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.iiirst h2:nth-child(2) input{
+    display: none;
+}
+.iiirst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+.jjirst h2{
+    position: absolute;
+}
+.ccontainer .activejj h2:nth-child(1){
+    display: none;
+}
+.ccontainer .activejj h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .activejj h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .activejj h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.jjirst h2:nth-child(2) input{
+    display: none;
+}
+.jjirst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+.kkirst h2{
+    position: absolute;
+}
+.ccontainer .activekk h2:nth-child(1){
+    display: none;
+}
+.ccontainer .activekk h2:nth-child(2){
+    display: flex;
+}
+.ccontainer .activekk h2:nth-child(2) input{
+    width: 380px;
+    height: 35px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+.ccontainer .activekk h2:nth-child(2) button{
+    display: block;
+    width: 80px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.kkirst h2:nth-child(2) input{
+    display: none;
+}
+.kkirst h2:nth-child(2) input::placeholder{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+.secondcontainer h2{
+    position: absolute;
+}
+.secondcontainer .active h2:nth-child(2) input{
+    width: 110px;
+    display: block;
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    background: none;
+    outline: none;
+    border: none;
+    box-shadow: inset 0 0 10px #000;
+    font-weight: 600;
+}
+.secondcontainer h2 input::placeholder{
+    color: #fff;
+    font-weight: 600;
+}
+.secondcontainer h2:nth-child(2) input{
+    display: none;
+}
+.secondcontainer .active h2:nth-child(1){
+    display: none;
+}
+
+.secondcontainer .active:nth-child(n+2):nth-child(-n+13) h2:nth-child(2) input{
+    width: 110px;
+    display: block;
+    height: 30px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    background: none;
+    outline: none;
+    border: none;
+    box-shadow: inset 0 0 10px #000;
+    font-weight: 600;
+}
+.secondcontainer .active:nth-child(n+2):nth-child(-n+13) h2:nth-child(2) button{
+    border-top-right-radius: 6px;
+}
+.secondcontainer .active:nth-child(14) h2:nth-child(2) input{
+    width: 110px;
+    display: block;
+    height: 30px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    background: none;
+    outline: none;
+    border: none;
+    box-shadow: inset 0 0 10px #000;
+    font-weight: 600;
+}
+.secondcontainer .active:nth-child(14) h2:nth-child(2) button{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 15px;
+}
+.secondcontainer div h2:nth-child(2){
+    display: flex;
+}
+.secondcontainer .active h2:nth-child(2) button{
+    display: block;
+    width: 50px;
+    margin-left: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background: none;
+    box-shadow: inset 0 0 10px #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.fcontainer .active h2:nth-child(1){
+    display: none;
+}
+.fcontainer .active h2:nth-child(2){
+    display: block;
+}
+.fifthcontainer div:nth-child(1) .helodirtyfellow{
+    background: #d25656;
+    box-shadow: 0 0 10px #000, 0 0 15px #fff,0 0 15px #fff,inset 0 0 5px #000;
+    color: #fff;
+    text-shadow: 0 0 10px #000, 1px 1px 10px #000;
+}
+.fifthcontainer div:nth-child(n+1) .helodirtyfellow{
+    background: #d25656;
+    box-shadow: 0 0 10px #000, 0 0 15px #fff,0 0 15px #fff,inset 0 0 5px #000;
+    color: #fff;
+    text-shadow: 0 0 10px #000, 1px 1px 10px #000;
+}
+
